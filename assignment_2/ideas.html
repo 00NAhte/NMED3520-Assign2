@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>The Digital Process</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,700;1,700&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="container wrapper">
+            <img src="imgs/Title_Element.png" alt="Title Element">
+        </div>
+    </header>
+    <div class="topnav" id="myTopnav">
+        <a href="index.html">Home</a>
+        <a href="help.html">Help</a>
+        <a href="ideas.html" class="active">Ideas</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    <section class="feature">
+        <div class="feature-grid container wrapper">
+            <div>
+                <div class="word-gen container"><u>Word Generator</u></div>
+                <FORM NAME="WordForm">  
+                    <INPUT TYPE=TEXT NAME="WordBox" id="wordbox"><BR>
+                    <INPUT TYPE=BUTTON VALUE="Generate" onClick="PickRandomWord(document.WordForm);" id="button">
+                </FORM>
+            </div>
+            <div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-grid container wrapper">
+        </div>
+    </footer>
+<script src="script.js"></script>
+</body>
+
+</html>

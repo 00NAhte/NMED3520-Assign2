@@ -1,0 +1,232 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+
+    /* base font styles */
+    color: white;
+    font-size: 20px;
+    line-height: 1.5em;
+}
+
+/*Code used from W3C schools: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp /*
+    /*Beginning of Nav Bar code*/
+    .topnav {
+        background-color: #333;
+        overflow: hidden;
+    }
+    
+    /* Style the links inside the navigation bar */
+    .topnav a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 20px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+    /* Change the color of links on hover */
+    .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+    
+    /* Add an active class to highlight the current page */
+    .topnav a.active {
+        background-color: #12daae;
+        color: white;
+    }
+    
+    /* Hide the link that should open and close the topnav on small screens */
+    .topnav .icon {
+        display: none;
+    }
+    /*End of Nav Bar code*/
+
+img {
+    max-width: 100%;
+}
+
+.wrapper {
+    padding: 80px 50px;
+}
+
+header .wrapper {
+    padding: 5px 40px;
+}
+
+.container {
+    max-width: 1440px;
+    margin: auto;
+}
+
+header {
+    background-color: #119c7e;
+    max-width: 100%;
+}
+
+.feature {
+    margin-bottom: 2%;
+    padding-bottom: 5%;
+    background-color: rgb(27, 27, 27);
+    background-size: cover;
+    background-position: center right;
+    min-height: 70vh;
+    display: flex;
+}
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: 3f 1fr 2fr;
+    grid-gap: 10%;
+}
+
+footer {
+    background-color: #119c7e;
+    text-align: bottom;
+    font-size: 50%;
+}
+
+.footer-grid {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2%;
+
+
+}
+
+
+/* COMPONENTS */
+
+.button {
+    padding: 15px 30px;
+    display: inline-block;
+    border-radius: 40px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: .5s;
+    margin-top: 2px;
+}
+
+.button-green {
+    background-color: #12daae;
+}
+
+.button-green:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.button-gold {
+    background-color: #FFBC61;
+    text-shadow: 0px 0px 20px #ed9b28;
+}
+
+.button-gold:hover {
+    background-color: #ed9b28;
+    color: white;
+} */
+
+
+/* TYPOGRAPHY */
+
+h1 {
+    font-size: 180%;
+    text-transform: uppercase;
+    /* margin: 0; */
+}
+
+h2 {
+    font-size: 150%;
+    text-transform: uppercase;
+    /* margin: 0; */
+}
+
+h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    /* margin: 0; */
+}
+
+h4 {
+    font-size: 24px;
+    text-transform: uppercase;
+    margin: 18px 0;
+}
+
+/*Code used from https://codepen.io/justpete/pen/ogNBPp */
+    /* Beginning of Word Generator css */
+    body {
+        font-family: Verdana, Geneva, sans-serif;
+        font-size: 1.2em;
+        margin: 0 auto;
+        max-width: 100%;
+        padding: 20px 10px;
+        line-height: 1.65em;
+        background: rgb(45, 45, 45);
+        color: #fff;
+        font-weight: 300;
+    }
+    
+    .word-gen {
+        text-align: center;
+        margin: 20% 0 5% 0;
+    }
+
+    #wordbox {
+        /*opacity: 0;*/
+        margin: 30px auto 0;
+        display: block;
+        width: 300px;
+        height: 40px;
+        font-size: 30px;
+        text-align: center;
+        background: #fff;
+        border-radius: 6px;
+        color: black;
+        transition: 1s linear;
+    }
+    
+    #button {
+        background: #12daae;
+        border: 0;
+        color: #fff;
+        font-size: 20px;
+        padding: 1em 2em;
+        cursor: pointer;
+        margin: 0 auto 60px;
+        display: block;
+        text-align: center;
+        border-radius: 6px;
+        font-weight: bold;
+    }
+
+    #button:hover {
+        background: #ddd;
+        color: black;
+    }
+    /*End of Word Generator code*/
+  
+/* a {
+    color: #FFBC61;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #F3D9B5;
+} */
+
+@media screen and (max-width: 600px){
+    .feature {
+        padding-bottom: 50%;
+    }
+}
